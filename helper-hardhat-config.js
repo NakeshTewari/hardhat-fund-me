@@ -1,11 +1,11 @@
 const networkConfig = {
     5: {
         name: "goerli",
-        ethUsePriceFeed: "0xD4a33860578De61DBAbDc8BFdb98FD742fA7028e",
+        ethUsdPriceFeed: "0xD4a33860578De61DBAbDc8BFdb98FD742fA7028e",
     },
     137: {
         name: "sepolia",
-        ethUsePriceFeed: "0x694AA1769357215DE4FAC081bf1f309aDC325306",
+        ethUsdPriceFeed: "0x694AA1769357215DE4FAC081bf1f309aDC325306",
     },
     //31337
 }

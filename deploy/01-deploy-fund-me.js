@@ -32,7 +32,7 @@ module.exports = async ({ getNamedAccounts, deployments }) => {
     const fundMe = await deploy("FundMe", {
         from: deployer,
         args: args, // price feed address
-        logs: true,
+        log: true,
         waitConfirmations: network.config.blockConfirmations || 1,
     })
 
